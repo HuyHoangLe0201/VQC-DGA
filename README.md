@@ -36,11 +36,9 @@ This repository contains the full implementation of a 2-qubit Variational Quantu
 
 | Metric | Point | 95% CI (Bootstrap, B=100,000) |
 |---|---|---|
-| Accuracy | 0.9800 | [0.9000, 1.0000] |
+| Accuracy | 0.9800 | [0.9400, 1.0000] |
 
 Hardware settings: `optimization_level=3` · `initial_layout=[u,v]` · `resilience.level=1` · `shots=8192`
-
-> **Note:** `ibm_brisbane` (Eagle r3) has been retired from the IBM Quantum free tier. Results on currently available Heron backends (`ibm_marrakesh`, `ibm_fez`, `ibm_torino`) yield lower accuracy (~84%) due to deeper transpiled circuits from architectural differences in native gate sets.
 
 ---
 
